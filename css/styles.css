@@ -75,6 +75,9 @@ body {
 }
 
 .page-header {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     border-bottom: 1px solid var(--border-header-color);
 }
 
@@ -182,6 +185,8 @@ body {
 }
 
 .list-connection {
+    display: flex;
+    align-items: center;
     margin-right: 48px;
 }
 
@@ -233,7 +238,10 @@ body {
 }
 
 .section-order {
-    display: block;
+    display: block;  
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
@@ -274,18 +282,12 @@ body {
 .astronaut-box {
     display: flex;
     background-color: var(--team-background-color);
+    width: 270px;
     height: 120px;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-    padding: 25px 100px;
     border-radius: 4px;
-}
-
-.antenna-box,
-.clock-box,
-.diagram-box {
-    margin-right: 30px;
 }
 
 .icon-antenna,
@@ -312,6 +314,7 @@ body {
     font-weight: 400;
     line-height: 1.7;
     text-align: left;
+    text-transform: uppercase;
 }
 
 .section-activity {
@@ -391,6 +394,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 16px;
 }
 
 .social-link-instagram,
@@ -404,13 +408,10 @@ body {
     width: 44px;
     border-radius: 50%;
     background-color: var(--main-background-color);
-    color: var(--social-links-color);
-    margin-top: 16px;
+    color: var(--social-links-color);    
 }
 
-.social-link-instagram,
-.social-link-twitter,
-.social-link-facebook {
+.social-link-item {
     margin-right: 10px;
 }
 
@@ -508,6 +509,9 @@ body {
 }
 
 .page-footer {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -657,14 +661,14 @@ body {
     text-align: center;
     border: none;
     border-radius: 4px;
-    padding: 6px 22px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 6px 22px;    
 }
 
 .example-button:hover,
 .example-button:focus {
     color: var(--accent-text-color);
     background-color: var(--btn-order-background-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .examples-set {
@@ -715,6 +719,9 @@ body {
 
 .portfolio-footer {
     display: block;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 60px;
     padding-bottom: 60px;
 }
